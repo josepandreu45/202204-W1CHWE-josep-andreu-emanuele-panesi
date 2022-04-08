@@ -1,0 +1,23 @@
+{
+  "name": "w1chwe-josep-andreu-emanuele-panesi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josepandreu45/202204-W1CHWE-josep-andreu-emanuele-panesi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josepandreu45/202204-W1CHWE-josep-andreu-emanuele-panesi/issues"
+  },
+  "homepage": "https://github.com/josepandreu45/202204-W1CHWE-josep-andreu-emanuele-panesi#readme",
+  "devDependencies": {
+    "sass": "^1.50.0"
+  }
+}

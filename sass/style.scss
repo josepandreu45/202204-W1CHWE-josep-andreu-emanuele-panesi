@@ -6,7 +6,7 @@ $breakpoints: (
 );
 
 header {
-  border: 10px solid black;
+  border: 10px solid yellow;
   background-color: $color-primario;
   justify-content: center;
 }
@@ -27,6 +27,12 @@ h3 ul {
 
 .container-fluid {
   border: 1px solid black;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 li {

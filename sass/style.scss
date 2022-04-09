@@ -18,6 +18,7 @@ main {
 footer {
   background-color: $color-secundario;
   color: #fff;
+  justify-content: center;
 }
 
 h3 ul {
@@ -26,4 +27,18 @@ h3 ul {
 
 .container-fluid {
   border: 1px solid black;
+}
+
+li {
+  list-style: none;
+  color: $color-primario;
+  text-align: center;
+}
+
+footer h3 {
+  text-align: center;
+}
+
+footer ul {
+  padding-left: 0rem;
 }

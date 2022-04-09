@@ -1,9 +1,19 @@
+$breakpoints: (
+  sm: 600px,
+);
+
 header {
-  background-color: violet;
+  border: 10px solid black;
+  background-color: green;
+  justify-content: center;
 }
 
 .contenido {
   &__video {
     background-image: url(images/home/media/media04.jpg);
   }
+}
+
+.container-fluid {
+  border: 1px solid black;
 }

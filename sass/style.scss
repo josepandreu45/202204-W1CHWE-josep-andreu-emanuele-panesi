@@ -1,12 +1,20 @@
 $color-primario: #15ffbc;
 $color-secundario: #080d14;
 
+$breakpoints: (
+  sm: 600px,
+);
+
 header {
+  border: 10px solid black;
   background-color: $color-primario;
+  justify-content: center;
 }
+
 main {
   background-color: $color-primario;
 }
+
 footer {
   background-color: $color-secundario;
   color: #fff;
@@ -14,4 +22,8 @@ footer {
 
 h3 ul {
   color: $color-primario;
+}
+
+.container-fluid {
+  border: 1px solid black;
 }

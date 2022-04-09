@@ -1,9 +1,17 @@
+$color-primario: #15ffbc;
+$color-secundario: #080d14;
+
 header {
-  background-color: violet;
+  background-color: $color-primario;
+}
+main {
+  background-color: $color-primario;
+}
+footer {
+  background-color: $color-secundario;
+  color: #fff;
 }
 
-.contenido {
-  &__video {
-    background-image: url(images/home/media/media04.jpg);
-  }
+h3 ul {
+  color: $color-primario;
 }

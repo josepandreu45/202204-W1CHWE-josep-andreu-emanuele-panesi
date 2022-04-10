@@ -1,28 +1,23 @@
-$color-primario: #15ffbc;
-$color-secundario: #080d14;
-
-$breakpoints: (
-  sm: 600px,
-);
+@use "variables";
 
 header {
   border: 10px solid yellow;
-  background-color: $color-primario;
+  background-color: variables.$color-primario;
   justify-content: center;
 }
 
 main {
-  background-color: $color-primario;
+  background-color: variables.$color-primario;
 }
 
 footer {
-  background-color: $color-secundario;
+  background-color: variables.$color-secundario;
   color: #fff;
   justify-content: center;
 }
 
 h3 ul {
-  color: $color-primario;
+  color: variables.$color-primario;
 }
 
 .container-fluid {
@@ -37,7 +32,7 @@ img {
 
 li {
   list-style: none;
-  color: $color-primario;
+  color: variables.$color-primario;
   text-align: center;
 }
 
@@ -47,4 +42,26 @@ footer h3 {
 
 footer ul {
   padding-left: 0rem;
+}
+
+footer h2 {
+  color: variables.$color-primario;
+  gap: 5px;
+}
+
+h2 > span {
+  text-decoration: line-through variables.$color-alternativo;
+}
+
+footer ul .home a {
+  text-decoration: line-through variables.$color-alternativo;
+  color: variables.$color-alternativo;
+}
+.navegacion li {
+  color: #fff;
+}
+
+.navegacion li a {
+  text-decoration: none;
+  color: #fff;
 }

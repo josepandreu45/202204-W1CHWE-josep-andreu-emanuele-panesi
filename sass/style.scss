@@ -1,12 +1,12 @@
 @use "variables";
 
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
+  font-family: "Anek Tamil", sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 header {
   background-color: variables.$color-primario;
-
   justify-content: center;
   padding: 0;
 }
@@ -55,6 +55,11 @@ footer h2 {
   gap: 5px;
 }
 
+h2,
+figcaption {
+  font-weight: bold;
+}
+
 h2 > span {
   text-decoration: line-through variables.$color-alternativo;
 }
@@ -65,6 +70,7 @@ footer ul .home a {
 }
 .navegacion li {
   color: #fff;
+  font-weight: bold;
 }
 
 .navegacion li a {

@@ -1,7 +1,7 @@
 @use "variables";
 
 body {
-  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
 }
 
 header {
@@ -91,4 +91,12 @@ footer > section {
 .about h2 {
   margin-top: 20px;
   margin-bottom: 50px;
+}
+
+.titulo-imagenes {
+  margin-bottom: 40px;
+}
+
+.logos {
+  margin-bottom: 30px;
 }

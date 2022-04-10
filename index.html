@@ -15,16 +15,51 @@
     />
   </head>
   <body>
-    <div class="container">
-      <header class="d-flex justify-content-center">
-        <img src="" alt="" />
-        <img src="logo.png" alt="logo Panic" />
+    <div class="container text-center">
+      <header class="container_header row">
+        <div class="col-1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1"
+            id="Layer_1"
+            x="0px"
+            y="0px"
+            width="250px"
+            height="250px"
+            viewBox="0 0 296 162"
+            style="enable-background: new 0 0 296 162"
+            xml:space="preserve"
+          >
+            <style type="text/css">
+              .st1 {
+                fill: #080d14;
+              }
+            </style>
+            <path
+              xmlns="http://www.w3.org/2000/svg"
+              class="st1"
+              d="M163,1v4h20V1H163z M163,13h20V9h-20V13z M163,21h20v-4h-20V21z"
+            />
+          </svg>
+        </div>
+        <div class="col-11 d-flex justify-content-center">
+          <img src="logo.png" alt="logo Panic" />
+        </div>
       </header>
-      <main>
-        <section>
-          <img src="images/home/media/media04.jpg" alt="icono de boton play" />
+      <main class="container_main row">
+        <section class="d-flex col-12">
+          <div class="position-relative">
+            <img
+              src="images/home/media/media04.jpg"
+              alt="icono de boton play"
+            />
+          </div>
+          <div class="position-absolute top-60 start-60">
+            <img src="/images/home/media/play.png" alt="logo play" />
+          </div>
         </section>
-        <section class="d-flex flex-column">
+        <section class="col-12">
           <h2>LOREM IPSUM DOLOR SIT</h2>
           <p>
             AMET, CONSECTETUR ADIPISICI ELIT, SED EUISMOD TEMPOR INCIDUNT UT
@@ -32,11 +67,11 @@
           </p>
           <div class="logos">------</div>
         </section>
-        <section>
+        <section class="col-12">
           <h1>LOREM IPSUM</h1>
           <span>DOLOR SIT</span>
         </section>
-        <section>
+        <section class="col-12">
           <figure>
             <img
               src="/images/home/media/media07.jpg"
@@ -60,9 +95,9 @@
           </figure>
         </section>
       </main>
-      <footer>
+      <footer class="container_footer row">
         <section>
-          <h2 class="titulo-footer d-flex justify-content-center">
+          <h2 class="col-12 titulo-footer d-flex justify-content-center">
             Lorem ipsum dolor
           </h2>
           <img src="" alt="" />

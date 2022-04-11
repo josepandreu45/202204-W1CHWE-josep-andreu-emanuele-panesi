@@ -1,5 +1,9 @@
 @use "variables";
 
+* {
+  box-sizing: content-box;
+}
+
 body {
   font-family: "Anek Tamil", sans-serif !important;
   font-family: "Open Sans", sans-serif !important;
@@ -8,8 +12,8 @@ body {
 
 .header_container {
   background-color: variables.$color-primario;
-  justify-content: center;
-  padding: 0;
+  height: 150px;
+  display: flex;
 }
 
 .container_main {
@@ -61,7 +65,10 @@ footer ul {
 
 footer h2 {
   color: variables.$color-primario;
-  gap: 5px;
+  display: flex;
+  flex-grow: 2;
+  align-items: center;
+  justify-content: center;
 }
 
 h2 {
@@ -95,6 +102,7 @@ footer ul .home a {
 
 .logo-burguer {
   padding-top: 15px;
+  padding-left: 15px;
 }
 
 .logos-redes {
@@ -106,7 +114,12 @@ footer ul .home a {
 }
 
 footer > section {
+  height: 100px;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about h2 {
@@ -132,4 +145,42 @@ footer > section {
 
 .header_container--burger {
   transform: translate(-260px, 10px);
+}
+
+.imagenes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.logo-panic {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 3;
+}
+
+.content-main {
+  height: 100vh;
+  width: 100vw;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+.redes-sociales {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin-bottom: 30px;
+  &__logos {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }

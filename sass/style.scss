@@ -14,6 +14,7 @@ body {
   background-color: variables.$color-primario;
   height: 150px;
   display: flex;
+  justify-content: center;
 }
 
 .container_main {
@@ -46,7 +47,6 @@ h3 ul {
 img {
   max-width: 100%;
   height: auto;
-  clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 20%);
 }
 
 li {
@@ -79,7 +79,7 @@ h2 {
 figcaption {
   font-weight: bold;
   margin: 30px;
-  transform: rotate(-11deg);
+  
 }
 
 h2 > span {
@@ -144,10 +144,16 @@ footer > section {
 }
 
 .header_container--burger {
-  transform: translate(-260px, 10px);
+  transform: translate(-190px, 10px);
 }
 
 .imagenes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main_imagenes {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -158,8 +164,8 @@ footer > section {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-grow: 3;
+  transform: translate(-15px, 0px);
 }
 
 .content-main {
@@ -220,5 +226,11 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+
+@media (min-width: 600px) {
+  .text {
+    font-size: 16px;
   }
 }

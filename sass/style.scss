@@ -7,16 +7,19 @@
 body {
   font-family: "Anek Tamil", sans-serif !important;
   font-family: "Open Sans", sans-serif !important;
+  margin: 0;
 }
 
-header {
+.header_container {
   background-color: variables.$color-primario;
   height: 150px;
   display: flex;
 }
 
-main {
+.container_main {
   background-color: variables.$color-primario;
+  display: list-item;
+  justify-content: center;
 }
 
 footer {
@@ -30,14 +33,20 @@ h3 ul {
 }
 
 .container {
-  border: 1px solid black;
   margin: 0 auto;
+  flex-wrap: wrap;
+  padding: -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   flex-wrap: wrap;
 }
 
 img {
   max-width: 100%;
   height: auto;
+  clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 20%);
 }
 
 li {
@@ -62,9 +71,15 @@ footer h2 {
   justify-content: center;
 }
 
-h2,
+h2 {
+  font-weight: bold;
+  margin: 10px;
+}
+
 figcaption {
   font-weight: bold;
+  margin: 30px;
+  transform: rotate(-11deg);
 }
 
 h2 > span {
@@ -116,8 +131,20 @@ footer > section {
   margin-bottom: 40px;
 }
 
+.listado-imagenes {
+  width: 100%;
+  height: auto;
+}
+
 .logos {
+  display: inline-block;
+  justify-content: center;
   margin-bottom: 30px;
+  margin-left: -10px;
+}
+
+.header_container--burger {
+  transform: translate(-260px, 10px);
 }
 
 .imagenes {

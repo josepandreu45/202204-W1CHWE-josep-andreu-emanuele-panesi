@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run-sass": "sass sass:css"
+    "run-sass": "sass sass:css",
+    "built-style": "sass sass:css -w"
   },
   "repository": {
     "type": "git",

@@ -42,6 +42,7 @@ h3 ul {
 img {
   max-width: 100%;
   height: auto;
+  clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 20%);
 }
 
 li {
@@ -63,10 +64,15 @@ footer h2 {
   gap: 5px;
 }
 
-h2,
-figcaption {
+h2 {
   font-weight: bold;
   margin: 10px;
+}
+
+figcaption {
+  font-weight: bold;
+  margin: 30px;
+  transform: rotate(-11deg);
 }
 
 h2 > span {
